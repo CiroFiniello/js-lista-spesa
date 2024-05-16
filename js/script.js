@@ -6,3 +6,10 @@ const ulEl = document.querySelector('ul');
 //     element.append(spesa[index]);
 //     ulEl.appendChild(element)   
 // }
+let x = 0;
+while( x < spesa.length){
+    const element = document.createElement('li');
+    element.append(spesa[x]);
+    ulEl.appendChild(element);
+    x++
+}
